@@ -85,6 +85,12 @@
 		<Unit filename="/home/kevin/DATA/Univ/semestre5/info505/tp1/main.cpp">
 			<Option target="tp1"/>
 		</Unit>
+		<Unit filename="/home/kevin/DATA/Univ/semestre5/info505/tp1/questions.cpp">
+			<Option target="tp1"/>
+		</Unit>
+		<Unit filename="/home/kevin/DATA/Univ/semestre5/info505/tp1/questions.hpp">
+			<Option target="tp1"/>
+		</Unit>
 		<Unit filename="/home/kevin/DATA/Univ/semestre5/info505/tp1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

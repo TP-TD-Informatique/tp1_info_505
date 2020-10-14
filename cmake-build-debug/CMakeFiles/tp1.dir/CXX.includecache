@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/DATA/Univ/semestre5/info505/tp1/main.cpp
+iostream
+-
+questions.hpp
+/home/kevin/DATA/Univ/semestre5/info505/tp1/questions.hpp
+
+/home/kevin/DATA/Univ/semestre5/info505/tp1/questions.hpp
+string
+-
+
