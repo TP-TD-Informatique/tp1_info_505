@@ -49,11 +49,10 @@ std::map<std::string, std::vector<int> *> *search(const std::string &str, std::v
         }
     }
 
-    auto it = keyword.begin();
-    for (; it != keyword.end(); it++) {
-        if (result->find(*it) == result->end()) {
+    for (auto &it : keyword) {
+        if (result->find(it) == result->end()) {
             auto *i = new std::vector<int>();
-            result->emplace(*it, i);
+            result->emplace(it, i);
         }
     }
     return result;
