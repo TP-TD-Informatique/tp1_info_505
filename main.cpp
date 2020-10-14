@@ -3,17 +3,26 @@
 #include "questions.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-
-    //std::cout << search("World", "Hello, World!") << std::endl;
-
     std::vector<std::string> keys = std::vector<std::string>();
-    keys.emplace_back("ni");
-    keys.emplace_back("rein");
-    keys.emplace_back("rene");
-    keys.emplace_back("irene");
-    std::map<std::string, std::vector<int> *> *result = search("annie n'honnit ni nina ni irene", keys);
+    std::cout << "Quels mot cherchez-vous ?" << std::endl;
+    std::string key;
+    do {
+        std::cout << "\t";
+        std::getline(std::cin, key);
+        if (!key.empty()) keys.emplace_back(key);
+    } while (!key.empty());
 
+    std::string str;
+    std::cout << "Dans quelle phrase ?" << std::endl;
+    do {
+        std::cout << "\t";
+        std::getline(std::cin, key);
+        if (!key.empty()) str = key;
+    } while (key.empty());
+
+    std::map<std::string, std::vector<int> *> *result = search(str, keys);
+
+    std::cout << std::endl << "Résultats :" << std::endl;
     for (auto &it : *result) {
         std::cout << it.first << " : (";
         std::cout << it.second->size() << ") ";

@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/DATA/Univ/semestre5/info505/tp1/questions.cpp
+/home/kevin/DATA/Univ/semestre5/info505/tp1/main.cpp
+iostream
+-
 questions.hpp
 /home/kevin/DATA/Univ/semestre5/info505/tp1/questions.hpp
 
