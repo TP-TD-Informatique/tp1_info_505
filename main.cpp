@@ -4,7 +4,7 @@
 
 int main() {
     std::vector<std::string> keys = std::vector<std::string>();
-    std::cout << "Quels mot cherchez-vous ?" << std::endl;
+    std::cout << "Quels mots cherchez-vous ?" << std::endl;
     std::string key;
     do {
         std::cout << "\t";

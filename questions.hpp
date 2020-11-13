@@ -12,6 +12,6 @@
 int search(std::string search, std::string str);
 
 // Question 2
-std::map<std::string, std::vector<int> *> *search(const std::string &str, std::vector<std::string> &keyword);
+std::map<std::string, std::vector<int> *> *search(const std::string &str, std::vector<std::string> &keywords);
 
 #endif //TP1_QUESTIONS_HPP
